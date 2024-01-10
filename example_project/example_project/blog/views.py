@@ -1,6 +1,6 @@
 from config.es_client import es_client
 
-from rest_framework_elasticsearch import es_views, es_pagination, es_filters
+from django_rest_elasticsearch import es_views, es_pagination, es_filters
 from .search_indexes import BlogIndex
 
 

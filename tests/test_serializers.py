@@ -6,7 +6,7 @@ import copy
 import pytest
 from django.db import models
 
-from rest_framework_elasticsearch.es_serializer import (
+from django_rest_elasticsearch.es_serializer import (
     BaseElasticSerializer, ElasticSerializer, ElasticModelSerializer)
 from .test_data import DataDocType, DATA
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django-rest-elasticsearch-7"
+name = "django-rest-elasticsearch"
 version = "0.4.1"
 description = "Elasticsearch support for Django REST Framework"
 authors = ["Somebody"]

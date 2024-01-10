@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import pytest
 
 from rest_framework.test import APIRequestFactory
-from rest_framework_elasticsearch.es_pagination import (
+from django_rest_elasticsearch.es_pagination import (
     ElasticLimitOffsetPagination)
 from .test_data import DATA
 

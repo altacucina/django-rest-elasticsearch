@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import (absolute_import, division, print_function, unicode_literals)
-from rest_framework_elasticsearch.es_serializer import ElasticModelSerializer
+from django_rest_elasticsearch.es_serializer import ElasticModelSerializer
 
 from .models import Blog
 from .search_indexes import BlogIndex

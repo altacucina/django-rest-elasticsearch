@@ -5,10 +5,10 @@ import pytest
 from rest_framework.test import APIRequestFactory
 from elasticsearch_dsl import Q
 
-from rest_framework_elasticsearch.es_filters import (
+from django_rest_elasticsearch.es_filters import (
     ESFieldFilter, ElasticOrderingFilter, ElasticFieldsFilter,
     ElasticFieldsRangeFilter, ElasticSearchFilter, ElasticGeoBoundingBoxFilter, ElasticGeoDistanceFilter)
-from rest_framework_elasticsearch.es_views import ElasticAPIView
+from django_rest_elasticsearch.es_views import ElasticAPIView
 from .test_data import DataDocType, DATA
 from .utils import get_search_ids
 

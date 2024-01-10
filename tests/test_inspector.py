@@ -3,12 +3,12 @@ from __future__ import unicode_literals
 
 import pytest
 
-from rest_framework_elasticsearch.es_views import ElasticAPIView
-from rest_framework_elasticsearch.es_filters import (
+from django_rest_elasticsearch.es_views import ElasticAPIView
+from django_rest_elasticsearch.es_filters import (
     ElasticFieldsFilter, ElasticOrderingFilter, ElasticFieldsRangeFilter,
     ElasticSearchFilter, ESFieldFilter)
-from rest_framework_elasticsearch import es_pagination
-from rest_framework_elasticsearch.es_inspector import EsAutoSchema
+from django_rest_elasticsearch import es_pagination
+from django_rest_elasticsearch.es_inspector import EsAutoSchema
 from tests.conftest import DRF_VERSION
 
 

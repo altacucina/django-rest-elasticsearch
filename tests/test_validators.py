@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 import pytest
 
-from rest_framework_elasticsearch import es_validators
+from django_rest_elasticsearch import es_validators
 
 
 @pytest.mark.parametrize("value", (True, 'True', 'true', '1'))
