@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "4.2.13"
+django = "4.2.13"  # pin to 4.2.13 because in 4.2.14 django fixes a path traversal vulnerability https://docs.djangoproject.com/en/5.0/releases/4.2.14/#cve-2024-39330-potential-directory-traversal-via-storage-save that makes easy-yhumbanils library to fail
 djangorestframework = "^3.14.0"
 elasticsearch-dsl = ">=7.0.0,<8.0.0"
 
